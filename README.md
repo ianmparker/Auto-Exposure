@@ -1,19 +1,16 @@
-# Auto-Exposure
-Simple Auto Exposure project in Python
+# Auto-Exposure Calibration: A Python Implementation
+
+
 My LinkedIn: https://www.linkedin.com/in/ian-parker-596011142/
 --------------------------------------
 
 # Overview
 
-As a part of my overarching basketball event detection project (https://github.com/ianmparker/basket-event-detection) , I ran into issues when capturing footage outdoors. 
+This project is an integral component of a larger initiative aimed at detecting basketball events (available at Basketball Event Detection). The primary challenge encountered during the data collection phase was the variability in outdoor lighting conditions, which could range from bright sunlight to overcast skies or even sunset.
 
-It's hard to get ideal lightning conditions for data collection when it is an especially sunny day, overcast, sunset etc...
+To mitigate these issues and enhance image quality, I have developed an auto-exposure calibration project that employs gamma correction. This technique can be applied to any underexposed or overexposed image to adjust its exposure, thereby making it more visually discernible.
 
-In order to impove image quality I've developed a simple auto exposure project that uses gamma correction. 
-
-It can be used to take any image that is underexposed or overexposed and use gamma correction to make the image easier to view. 
-
-This will be key when running an image though a trained model, as it will be easier for the model to detect objects, poses, and events. 
+The application of this project is significant when processing an image through a trained model, as it facilitates the model’s ability to detect objects, poses, and events.
 
 
 --------------------------------------
@@ -33,14 +30,15 @@ This will be key when running an image though a trained model, as it will be eas
 
 # Next Steps
 
-As I progress in development and expand to real-time event detection in the field, the ability to calibrate the auto exposure in real-time will be crucial. 
+As the project evolves towards real-time event detection in the field, the capacity to calibrate auto-exposure in real-time will become increasingly critical.
 
-There are many other auto-exposure techniques used in image processing in additon to gama correction such as: 
+There exist numerous auto-exposure techniques in the realm of image processing, beyond gamma correction, such as:
+
   - Histogram Equalization
-  - Reinforcement Learning using a Markov Decision making Process
+  - Reinforcement Learning using a Markov Decision Process
   - Adaptive Metering
-
-As I continue to explore these topics and get a better understaing of the challanges and constraints of real time basketball event detection I will likely use one of these methods. 
+    
+As I delve deeper into these topics and gain a more comprehensive understanding of the challenges and constraints associated with real-time basketball event detection, I anticipate incorporating one of these methods into my project.
 
 --------------------------------------
 
