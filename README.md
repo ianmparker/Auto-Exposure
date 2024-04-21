@@ -35,7 +35,7 @@ As the project evolves towards real-time event detection in the field, the capac
 
 There exist numerous auto-exposure techniques in the realm of image processing, beyond gamma correction, such as:
 
-  - Histogram Equalization
+  - Histogram Equalization:   
   - Reinforcement Learning using a Markov Decision Process
   - Adaptive Metering
     
