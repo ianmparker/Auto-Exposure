@@ -1,7 +1,8 @@
 # Auto-Exposure Calibration: A Python Implementation
 
 
-My LinkedIn: https://www.linkedin.com/in/ian-parker-596011142/
+My LinkedIn: https://www.linkedin.com/in/ianmp
+
 --------------------------------------
 
 # Overview
