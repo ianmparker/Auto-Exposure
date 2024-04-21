@@ -7,7 +7,7 @@ My LinkedIn: https://www.linkedin.com/in/ianmp
 
 # Overview
 
-This project is an integral component of a larger initiative aimed at detecting basketball events (available at Basketball Event Detection). The primary challenge encountered during the data collection phase was the variability in outdoor lighting conditions, which could range from bright sunlight to overcast skies or even sunset.
+This project is an integral component of a larger initiative aimed at detecting basketball events (https://github.com/ianmparker/basket-event-detection). The primary challenge encountered during the data collection phase was the variability in outdoor lighting conditions, which could range from bright sunlight to overcast skies or even sunset.
 
 To mitigate these issues and enhance image quality, I have developed an auto-exposure calibration project that employs gamma correction. This technique can be applied to any underexposed or overexposed image to adjust its exposure, thereby making it more visually discernible.
 
